@@ -1,0 +1,85 @@
+body {
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+}
+
+.card {
+    border-radius: 0.75rem;
+    border: none;
+}
+
+.card-header {
+    border-radius: 0.75rem 0.75rem 0 0 !important;
+}
+
+.table th {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.btn {
+    border-radius: 0.5rem;
+}
+
+.btn-sm {
+    padding: 0.3rem 0.6rem;
+}
+
+.badge {
+    font-size: 0.85rem;
+    padding: 0.4em 0.7em;
+    border-radius: 0.4rem;
+}
+
+/* jQuery UI Autocomplete - intégration Bootstrap */
+.ui-autocomplete {
+    z-index: 9999 !important;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    max-height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ui-menu-item-wrapper {
+    padding: 0.5rem 1rem !important;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.ui-menu-item-wrapper.ui-state-active {
+    background-color: #0d6efd !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 0;
+}
+
+.swal-button--confirm {
+    background-color: #dc3545 !important;
+}
+
+.swal-button--cancel {
+    background-color: #6c757d !important;
+}
+
+h2.fw-bold {
+    font-size: 1.6rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+    }
+}
